@@ -8,7 +8,7 @@ let game_state;
 let i = '';
 let interval = setInterval(() => {
 	document.getElementById('searching-for-match').innerHTML =
-		'Searching for Match' + i;
+		'Esperando por partida' + i;
 	i += '.';
 	if (i == '.....') i = '';
 }, 500);

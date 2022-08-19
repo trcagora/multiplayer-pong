@@ -2,7 +2,7 @@ var express = require('express');
 var Game = require('./Game');
 var app = express();
 const HERTZ = 30; //Game updates per second
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 var server = require('http')
 	.createServer(app)
 	.listen(port);
